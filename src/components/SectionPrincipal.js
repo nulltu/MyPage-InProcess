@@ -1,35 +1,49 @@
 import React from 'react'
+import Styled, { keyframes } from 'styled-components'
+import { bounce } from 'react-animations'
 import photo from '../assets/images/rusbent.jpg'
 import photoDeveloper from '../assets/images/developer.svg'
-import photoCode from '../assets/images/undraw_code_review_l1q9.svg'
-import { Row, Col } from 'react-materialize'
+import styled from 'styled-components'
+import github from '../assets/icons/001-github 1.svg'
+import linkedIn from '../assets/icons/002-linkedin 1.svg'
+import whatsapp from '../assets/icons/003-whatsapp 1.png'
+import telegram from '../assets/icons/004-telegram 1.svg'
+
+const Bounce = styled.div`animation:2s ${keyframes`${bounce}`} infinite`
+const BounceTwo = styled.div`animation:3s ${keyframes`${bounce}`} infinite`
 
 function SectionPrincipal() {
 
     return (
         <>
-            <div className="container__section__principal">
+            <section className="container__section__principal">
                 <div className="section__principal">
                     <p><span id="console">console</span><span id="log">.log</span><span className="keys">(</span><span id="hola__mundo">"Hola MUNDO!!"</span><span className="keys">)</span></p>
-                    <p className="mi__nombre">Mi nombre es Rusbent y soy <br />
+                    <p className="mi__nombre">Mi nombre es <span id="rusbent">Rusbent</span> y soy <br />
                     Desarrollador Full Stack Web JR
                     </p>
                 </div>
                 <div>
                     <img className="photo__developer" src={photoDeveloper} alt="" />
                 </div>
-            </div>
-            <Row>
-                <Col className="black-text center" m={6}>
-                    <h3>Sobre mí</h3>
-                    <p className="sobre__mi"> Después de haber pasado por el bootcamp de MINDHUB ya me encuentro listo para mi primer trabajo en el sector IT, tengo la experiencia de haber trabajado en equipo usando metodologías agiles, manejo de APIs  y un amplio conocimiento en los que es llevar un proyecto desde cero con React JS.
-                    Me considero una persona asertiva, responsable, colaborativa y totalmente adaptable a mi entorno. Por otro lado me gusta familiarizarme con nuevas tecnologías,  y siempre busco  la solución más sencilla pero eficaz ante algún requerimiento. Creo que ser programador es un aprendizaje constante,
-                     eso lo hace desafiante y fascinante al mismo tiempo.</p>
-                </Col>
-                <Col m={6} className="center">
-                    <img className="container__photo" src={photoCode} alt="" />
-                </Col>
-            </Row>
+            </section>
+            <section className="icons__social">
+                <Bounce><a href="https://github.com/nulltu"><img src={github} alt="" /></a></Bounce>
+                <BounceTwo><a href="https://www.linkedin.com/in/rusbent/"><img src={linkedIn} alt="" /></a></BounceTwo>
+                <Bounce><img src={whatsapp} alt="" /></Bounce>
+                <BounceTwo><img src={telegram} alt="" /></BounceTwo>
+            </section>
+            <section>
+                <h2>Sobre Mí</h2>
+                <div  className="sobre__mi">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores numquam temporibus blanditiis culpa architecto ipsam fugiat placeat est at iure error, sed reprehenderit cum officiis nam tenetur laborum dolore qui
+                </p>
+                    <img src={photo} alt="" />
+                </div>
+
+            </section>
+
 
         </>
     )

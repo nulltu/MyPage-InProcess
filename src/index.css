@@ -1,16 +1,39 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #d8e9fa;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+  box-shadow: none!important;
 }
 
 nav{
-  background-color:whitesmoke!important;
+  background-color: rgb(200, 230, 248)!important;
+  padding: 1rem;
+  height: 10vh!important;
 }
 
-a{
-  color: #0b4b32!important;
+nav a{
+  color: #3F3D56!important;
+  font-size: 1rem!important;
+  font-weight: 600!important;
+  color: whitesmoke;
+  margin: 0rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 600!important;
+  background-image: linear-gradient( rgb(110, 110, 110), rgb(110, 110, 110))!important;
+  background-position: 0% 100%!important;
+  background-repeat: no-repeat!important;
+  background-size: 0% 1px!important;
+  transition: background-size .3s!important;
+}
+
+a:hover{
+  background-color: rgb(200, 230, 248)!important;
+  color: #68B2FD!important;
+  background-size: 100% 2px!important;
+  text-decoration: none!important;
 }
 
 .hide-on-med-and-down{
@@ -28,6 +51,8 @@ header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(200, 230, 248);
+  border-radius: 0 0 50% 50%/0 0 50% 50%;
 }
 
 .section__principal p:nth-child(1){
@@ -41,23 +66,23 @@ header nav{
 }
 
 .section__principal p:nth-child(1) #console{
-  color:#0b4b32;
+  color:#3F3D56;
 ;
 }
 
 .section__principal p:nth-child(1) #log{
-  color:#0e47a8;
+  color:#68B2FD;
 }
 
 .keys{
-  color: rgb(139, 36, 36);
+  color: #3F3D56;
 }
 .section__principal p #hola__mundo{
-  color: rgb(153, 153, 13);
+  color: #3F3D56;
 }
 
 .photo__developer{
-  width: 45rem;
+  width: 25rem;
   margin-top: 4rem;
 }
 
@@ -77,4 +102,43 @@ header nav{
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
+  color: #DB756E;
+}
+
+#rusbent{
+  color: #68B2FD;
+}
+
+.icons__social{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(200, 230, 248);
+  border-radius: 50% 50% 0 0/100% 0 0 0;
+}
+
+.icons__social img{
+  width: 4rem;
+  margin: 10rem 1rem;
+}
+/*------------SOBRE MI-------------*/
+
+.sobre__mi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sobre__mi img{
+  border-radius: 50%;
+  width: 50%;
+}
+
+
+/*--------------------*/
+footer{
+  background-color:#68B2FD;
+  text-align: center;
+  margin: 0px;
+  padding: .5rem;
 }
