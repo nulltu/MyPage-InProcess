@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+  background-color:whitesmoke!important;
+}
+
+a{
+  color: #0b4b32!important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hide-on-med-and-down{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+} 
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+.container__section__principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section__principal p:nth-child(1){
+  
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 4rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section__principal p:nth-child(1) #console{
+  color:#0b4b32;
+;
+}
+
+.section__principal p:nth-child(1) #log{
+  color:#0e47a8;
+}
+
+.keys{
+  color: rgb(139, 36, 36);
+}
+.section__principal p #hola__mundo{
+  color: rgb(153, 153, 13);
+}
+
+.photo__developer{
+  width: 45rem;
+  margin-top: 4rem;
+}
+
+.container__photo{
+  object-fit: cover;
+  width: 20rem;
+  height: 30vh;
+  border-radius: 50%;
+}
+
+.sobre__mi{
+  font-size: 2rem;
+  color:#0b4b32;
+}
+
+.mi__nombre{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
