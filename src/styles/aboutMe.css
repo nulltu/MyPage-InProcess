@@ -1,0 +1,46 @@
+.container__section__sobre__mi {
+    margin: 2vw;
+  }
+  
+  .title__sobre__mi{
+  font-size: 4rem;
+  padding: 5rem 0 0 0;
+  font-weight: 400;
+  color: #DB756E;
+  }
+  
+  .sobre__mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  
+  .sobre__mi p:nth-child(2){
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    color: #3F3D56;
+    text-align: justify;
+  }
+  
+  .sobre__mi p:nth-child(3){
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #3F3D56;
+    text-align: justify;
+  }
+  
+  .sobre__mi img{
+    width: 40%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .photo__profile{
+    width: 40rem;
+    border-radius: 5px;
+    object-fit: cover;
+  }

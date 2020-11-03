@@ -6,6 +6,7 @@ import whatsapp from '../assets/icons/003-whatsapp 1.png'
 import telegram from '../assets/icons/004-telegram 1.svg'
 import Styled, { keyframes } from 'styled-components'
 import { bounce } from 'react-animations'
+import '../styles/iconsSocial.css'
 
 
 const Bounce = styled.div`animation:2s ${keyframes`${bounce}`} infinite`

@@ -1,0 +1,37 @@
+.title__skills{
+    font-size: 4rem;
+    padding: 5rem 0 0 0;
+    font-weight: 400;
+    color: #DB756E;
+  }
+  .devicon-git-plain {
+    width:6rem;
+  }
+  
+  .container__skills{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgb(200, 230, 248);
+  
+  }
+  
+  .container__cols__skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  
+  .container__cols__skills p{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .col1__skills svg, .col2__skills svg{
+    margin: 1rem;
+  }
+  
+  .skills_entorno{
+    display: flex;
+    
+  }
+  

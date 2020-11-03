@@ -1,0 +1,13 @@
+.icons__social{
+    text-align: center;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    background-color: rgb(200, 230, 248);
+  }
+  
+  .icons__social img{
+    width: 4rem;
+    margin: 10rem 1rem;
+  }
+  
