@@ -53,7 +53,6 @@ header nav{
   align-items: center;
   text-align: center;
   background-color: rgb(200, 230, 248);
-  border-radius: 0 0 50% 50%/0 0 50% 50%;
   height: 60vh;
 }
 
@@ -116,35 +115,47 @@ header nav{
   height: 30vh;
   justify-content: center;
   background-color: rgb(200, 230, 248);
-  border-radius: 50% 50% 0 0/100% 0 0 0;
 }
 
 .icons__social img{
   width: 4rem;
   margin: 10rem 1rem;
 }
+
 /*------------SOBRE MI-------------*/
 .container__section__sobre__mi {
   margin: 2vw;
+}
+
+.title__sobre__mi{
+font-size: 4rem;
+padding: 5rem 0 0 0;
+font-weight: 400;
+color: #DB756E;
 }
 
 .sobre__mi{
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.sobre__mi div h2{
   text-align: center;
-  font-weight: bold;
-  color: #3F3D56;
+  margin-top: 5rem;
 }
 
-.sobre__mi p{
-  padding: 5rem 10rem;
-  color: #DB756E;
-  text-align:center;
-  text-justify: kashida;
+
+.sobre__mi p:nth-child(2){
+  padding: 1rem 10rem;
+  font-size: 2rem;
+  color: #3F3D56;
+  text-align: justify;
+}
+
+.sobre__mi p:nth-child(3){
+  padding: 1rem 10rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #3F3D56;
+  text-align: justify;
 }
 
 .sobre__mi img{
@@ -160,10 +171,46 @@ header nav{
 }
 
 /*-----------------Skills-----------------*/
-
+.title__skills{
+  font-size: 4rem;
+  padding: 5rem 0 0 0;
+  font-weight: 400;
+  color: #DB756E;
+}
 .devicon-git-plain {
   width:6rem;
 }
+
+.container__skills{
+  text-align: center;
+  margin-top: 5rem;
+  background-color: rgb(200, 230, 248);
+
+}
+
+.container__cols__skills{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.container__cols__skills p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.col1__skills svg, .col2__skills svg{
+  margin: 1rem;
+}
+
+.skills_entorno{
+  display: flex;
+  
+}
+
+/*-----------Portfolio------------*/
+
+
 
 /*--------------------*/
 footer{
