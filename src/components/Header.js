@@ -26,7 +26,7 @@ function Header() {
           <NavItem href="">Inicio</NavItem>
           <NavItem onClick={() => scroll.scrollTo(1000)}>Sobre Mí</NavItem>
           <NavItem onClick={() => scroll.scrollTo(2000)}>Skills</NavItem>
-          <NavItem href="">PortFolio</NavItem>
+          <NavItem onClick={() => scroll.scrollTo(3000)}>PortFolio</NavItem>
           <NavItem href="">Contacto</NavItem>
         </Navbar>
       </>
