@@ -1,8 +1,8 @@
 .title__skills{
     font-size: 4rem;
     padding: 5rem 0 0 0;
-    font-weight: 400;
-    color: #DB756E;
+    font-weight: bold;
+    color: #3F3D56;
   }
   .devicon-git-plain {
     width:6rem;
@@ -11,7 +11,7 @@
   .container__skills{
     text-align: center;
     margin-top: 5rem;
-    background-color: rgb(200, 230, 248);
+    background-color:rgba(3, 43, 163, 0.5);
   
   }
   
@@ -33,5 +33,9 @@
   .skills_entorno{
     display: flex;
     
+  }
+
+  .container__skills p{
+    color: #ecf2f7;
   }
   

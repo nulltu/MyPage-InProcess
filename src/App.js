@@ -14,9 +14,9 @@ function App() {
     <Header />
     <Presentation />
     <IconsSocial />
-    {/* <AboutMe />
+    <AboutMe />
     <Skills />
-    <Portfolio />
+    {/* <Portfolio />
     <Contact />
     <Footer /> */}
    </>
