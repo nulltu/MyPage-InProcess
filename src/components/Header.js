@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import 'materialize-css';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import {animateScroll as scroll} from 'react-scroll'

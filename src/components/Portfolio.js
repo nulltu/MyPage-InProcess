@@ -29,8 +29,8 @@ function Portfolio() {
                             cursorStyle={"zoom-in"}
                         />
                         <div className="container__links">
-                        <a href=""><img src={demo}></img>  Demo</a>
-                            <a href=""><img src={github}></img> Repo</a>
+                        <a href="https://stoic-northcutt-640592.netlify.app/"><img src={demo} alt="demo"></img>Demo</a>
+                            <a href="https://github.com/nulltu/Congress-113"><img src={github}alt=""></img> Repo</a>
                         </div>
                     </div>
                     <div className="item__portfolio">
@@ -45,8 +45,8 @@ function Portfolio() {
                             cursorStyle={"zoom-in"}
                         />
                         <div className="container__links">
-                        <a href=""><img src={demo}></img>  Demo</a>
-                            <a href=""><img src={github}></img> Repo</a>
+                
+                            <a href="https://github.com/nulltu/MyTinerary-Travel"><img src={github} alt=""></img> Repo</a>
                         </div>
                     </div>
 
@@ -65,8 +65,8 @@ function Portfolio() {
                             cursorStyle={"zoom-in"}
                         />
                         <div className="container__links">
-                        <a href=""><img src={demo}></img>  Demo</a>
-                            <a href=""><img src={github}></img> Repo</a>
+                        <a href="https://housemuv-white.herokuapp.com/sign-in"><img src={demo} alt=""></img>  Demo</a>
+                            <a href="https://github.com/nulltu/HOUSE-MUV"><img src={github} alt=""></img> Repo</a>
                         </div>
                     </div>
                     <div className="item__portfolio">
@@ -81,8 +81,8 @@ function Portfolio() {
                             cursorStyle={"zoom-in"}
                         />
                         <div className="container__links">
-                            <a href=""><img src={demo}></img>  Demo</a>
-                            <a href=""><img src={github}></img> Repo</a>
+                            <a href="http://pyral.herokuapp.com/"><img src={demo} alt=""></img>  Demo</a>
+                            <a href="https://github.com/nulltu/-Ecomerce-Clothing"><img src={github} alt=""></img> Repo</a>
                         </div>
 
                     </div>

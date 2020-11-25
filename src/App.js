@@ -14,11 +14,11 @@ function App() {
     <Header />
     <Presentation />
     <IconsSocial />
-    <AboutMe />
+    {/* <AboutMe />
     <Skills />
     <Portfolio />
     <Contact />
-    <Footer />
+    <Footer /> */}
    </>
   )
 }

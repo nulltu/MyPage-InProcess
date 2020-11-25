@@ -1,5 +1,5 @@
 import React from 'react'
-import { Select, TextInput, Button } from 'react-materialize'
+import {TextInput, Button } from 'react-materialize'
 import '../styles/contact.css'
 
 function Contact() {
