@@ -12,9 +12,12 @@ i.material-icons {
   color: #FF9F63;
 }
 
+hr{
+  border: 1px solid #3F3D56!important;
+}
+
 footer{
-  background-color:#68B2FD;
+  background-color:rgba(3, 43, 163, 0.5);
   text-align: center;
-  margin: 0px;
-  padding: .5rem;
+  padding: 2.5rem;
 }
