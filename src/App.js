@@ -16,9 +16,9 @@ function App() {
     <IconsSocial />
     <AboutMe />
     <Skills />
-    {/* <Portfolio />
+    <Portfolio />
     <Contact />
-    <Footer /> */}
+    {/* <Footer /> */}
    </>
   )
 }

@@ -5,8 +5,9 @@ import skills from '../assets/images/undraw_percentages_0rur.svg'
 function Skills() {
     return (
         <section className="container__skills">
-            <div>
+            <div className="container__div">
                 <div id="box__data">
+                    <h2 className="title__skills">Skills</h2>
                     <img src={skills}></img>
                 </div>
                 <div className="container__cols__skills">

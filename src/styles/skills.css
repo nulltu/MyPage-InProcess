@@ -1,9 +1,16 @@
 .title__skills{
     font-size: 4rem;
-    padding: 5rem 0 0 0;
+    margin-bottom: 5rem;
     font-weight: bold;
-    color: #3F3D56;
+    color: #ecf2f7;
   }
+
+  .container__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .devicon-git-plain {
     width:6rem;
   }
@@ -18,8 +25,11 @@
   }
 
   #box__data{
-   
     margin: 5rem 2rem;
+  }
+
+  #box__data img{
+    width: 70%;
   }
   
   .container__cols__skills{
@@ -46,3 +56,18 @@
     color: #ecf2f7;
   }
   
+
+  @media only screen and (max-width: 1500px) {
+    
+    .container__div{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #box__data img{
+      width: 100%;
+
+    }
+
+  }
