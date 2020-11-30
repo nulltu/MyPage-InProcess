@@ -1,0 +1,48 @@
+.title__skills{
+    font-size: 4rem;
+    padding: 5rem 0 0 0;
+    font-weight: bold;
+    color: #3F3D56;
+  }
+  .devicon-git-plain {
+    width:6rem;
+  }
+  
+  .container__skills{
+    display: flex;
+    justify-content:space-around;
+    align-content:center;
+    text-align: center;
+    margin-top: 5rem;
+    background-color:rgba(3, 43, 163, 0.5);
+  }
+
+  #box__data{
+   
+    margin: 5rem 2rem;
+  }
+  
+  .container__cols__skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  
+  .container__cols__skills p{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .col1__skills svg, .col2__skills svg{
+    margin: 1rem;
+  }
+  
+  .skills_entorno{
+    display: flex;
+    
+  }
+
+  .container__skills p{
+    color: #ecf2f7;
+  }
+  

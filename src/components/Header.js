@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import 'materialize-css';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import {animateScroll as scroll} from 'react-scroll'
@@ -25,8 +25,8 @@ function Header() {
         >
           <NavItem href="">Inicio</NavItem>
           <NavItem onClick={() => scroll.scrollTo(1000)}>Sobre Mí</NavItem>
-          <NavItem href="">Skills</NavItem>
-          <NavItem href="">PortFolio</NavItem>
+          <NavItem onClick={() => scroll.scrollTo(2000)}>Skills</NavItem>
+          <NavItem onClick={() => scroll.scrollTo(3000)}>PortFolio</NavItem>
           <NavItem href="">Contacto</NavItem>
         </Navbar>
       </>

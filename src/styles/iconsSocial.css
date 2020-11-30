@@ -1,0 +1,30 @@
+.icons__social{
+    text-align: center;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    background-color: rgba(3, 43, 163, 0.5);
+  }
+  
+  .icons__social img{
+    width: 4rem;
+    margin: 5rem 1rem;
+  }
+
+  @media only screen and (max-width: 1500px) {
+
+    .icons__social{
+      text-align: center;
+      display: flex;
+      height: 20vh;
+      justify-content: center;
+      background-color: rgba(3, 43, 163, 0.5);
+    }
+
+    .icons__social img{
+      width: 3rem;
+      margin: 3rem 1rem;
+    }
+
+  }
+  

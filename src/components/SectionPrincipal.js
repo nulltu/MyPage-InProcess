@@ -1,5 +1,5 @@
 import React from 'react'
-import Styled, { keyframes } from 'styled-components'
+import { keyframes } from 'styled-components'
 import { bounce } from 'react-animations'
 import photo from '../assets/images/rusbent.jpg'
 import photoDeveloper from '../assets/images/developer.svg'
@@ -8,7 +8,7 @@ import github from '../assets/icons/001-github 1.svg'
 import linkedIn from '../assets/icons/002-linkedin 1.svg'
 import whatsapp from '../assets/icons/003-whatsapp 1.png'
 import telegram from '../assets/icons/004-telegram 1.svg'
-import photoProfile from '../assets/images/profile.jpg'
+
 
 const Bounce = styled.div`animation:2s ${keyframes`${bounce}`} infinite`
 const BounceTwo = styled.div`animation:3s ${keyframes`${bounce}`} infinite`
